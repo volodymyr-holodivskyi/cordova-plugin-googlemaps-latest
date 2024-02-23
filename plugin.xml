@@ -253,6 +253,14 @@
     <resource-file src="src/android/res/layout/dummy_infowindow.xml" target="res/layout/dummy_infowindow.xml"/>
     <resource-file src="src/android/res/drawable/dummy_my_location_button.png" target="res/drawable/dummy_my_location_button.png"/>
     <resource-file src="src/android/res/drawable/dummy_mylocation_button_shadow.xml" target="res/drawable/dummy_mylocation_button_shadow.xml"/>
+	
+	<preference name="PLAY_SERVICES_VERSION" default="18.0.0"/>
+    <framework src="com.google.android.gms:play-services-maps:$PLAY_SERVICES_VERSION"/>
+    <framework src="com.google.android.gms:play-services-location:$PLAY_SERVICES_VERSION"/>
+
+    <!-- Minimum required version of Android Support library v4 for this plugin. https://developers.google.com/android/guides/releases -->
+    <preference name="ANDROIDX_VERSION" default="1.+" />
+    <framework src="androidx.legacy:legacy-support-v4:$ANDROIDX_VERSION" />
 
     <!-- Base messages -->
     <resource-file src="src/android/res/values/pgm_strings.xml" target="res/values/pgm_strings.xml"/>
