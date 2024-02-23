@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mapsplugin/cordova-plugin-googlemaps.git"
+    "url": "git+https://github.com/davidluthiers/cordova-plugin-googlemaps-latest"
   },
   "keywords": [
     "google",
@@ -61,5 +61,9 @@
   },
   "dependencies": {
     "cordova-common": "^3.1.0"
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
   }
 }
