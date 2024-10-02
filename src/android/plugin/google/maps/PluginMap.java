@@ -666,7 +666,6 @@ public class PluginMap extends MyPlugin implements OnMarkerClickListener,
       ((MyPluginInterface)plugin).setPluginMap(PluginMap.this);
       pluginEntry.plugin.execute("create", args, callbackContext);
 
-
     } catch (Exception e) {
       e.printStackTrace();
     }
