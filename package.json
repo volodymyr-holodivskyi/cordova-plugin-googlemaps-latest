@@ -53,7 +53,7 @@
   "bugs": {
     "url": "https://github.com/mapsplugin/cordova-plugin-googlemaps/issues"
   },
-  "homepage": "https://github.com/mapsplugin/cordova-plugin-googlemaps",
+  "homepage": "https://github.com/davidluthiers/cordova-plugin-googlemaps-latest",
   "devDependencies": {
     "cordova-js": "^4.2.4",
     "eslint": "^5.7.0",
