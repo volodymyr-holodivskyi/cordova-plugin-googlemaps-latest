@@ -91,7 +91,7 @@ android {
   dependencies {
     implementation "com.google.android.gms:play-services-maps:${PLAY_SERVICES_VERSION}"
     implementation "com.google.android.gms:play-services-location:${PLAY_SERVICES_VERSION}"
-    implementation "com.android.support:support-core-utils:${ANDROID_SUPPORT_V4_VERSION}"
+    implementation "androidx.core:core:1.10.0"
   }
 
 
